@@ -54,11 +54,3 @@ print("Starting training...")
 trainer.train()
 trainer.save_model(output_dir)
 print("Training complete. Model saved to", output_dir)
-```
-
-Create `requirements.txt`:
-```
-transformers==4.40.0
-datasets==2.19.0
-torch
-accelerate
